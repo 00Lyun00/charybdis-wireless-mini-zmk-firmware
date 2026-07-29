@@ -33,7 +33,7 @@
 #define MOUSE   6
 #define EXTRA   7
 
-// #define MEH(key) LA(LS(LC(key)))
+#define MEH(key) LA(LS(LC(key)))
 
 // This shared keymap builds for prospector and non-prospector firmwares. 
 // This stubs the key bindings that are contained in the prospector module
