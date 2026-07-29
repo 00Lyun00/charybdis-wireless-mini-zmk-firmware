@@ -23,7 +23,7 @@ include:
       # - canary
       # - focal
       # - graphite
-      # - main
+       - main
 
 # # ── Standard Dongle Firmwares ─────────────────────────────────────────────────
 #   - name: dongle_standard_nano
