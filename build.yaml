@@ -18,11 +18,12 @@ include:
       - charybdis_left_bt
       - charybdis_right_bt
     keymap:
-      - qwerty
-      - colemak_dh
+      #- qwerty
+      #- colemak_dh
       # - canary
       # - focal
       # - graphite
+      # - main
 
 # # ── Standard Dongle Firmwares ─────────────────────────────────────────────────
 #   - name: dongle_standard_nano
