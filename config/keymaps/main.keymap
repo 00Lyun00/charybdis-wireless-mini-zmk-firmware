@@ -24,14 +24,14 @@
 // ╰──────┴──────┴──────┼──────┼──────┼──────┤  ├──────┼──────┼──────┴──────┴──────┴──────╯
 //                         36     37     38        39     40
 //                      ╰──────┴──────┴──────╯  ╰──────┴──────╯
-// #define MAIN    0
-// #define QWERT   1
-// #define NUM     2
-// #define NAV     3
-// #define SYMB    4
-// #define FUNC    5
-// #define MOUSE   6
-// #define EXTRA   7
+#define MAIN    0
+#define QWERT   1
+#define NUM     2
+#define NAV     3
+#define SYMB    4
+#define FUNC    5
+#define MOUSE   6
+#define EXTRA   7
 
 // #define MEH(key) LA(LS(LC(key)))
 
