@@ -18,8 +18,8 @@ include:
       - charybdis_left_bt
       - charybdis_right_bt
     keymap:
-      - qwerty
       - main
+      # - qwerty
       #- colemak_dh
       # - canary
       # - focal
