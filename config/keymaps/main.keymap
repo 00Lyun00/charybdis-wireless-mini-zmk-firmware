@@ -49,7 +49,6 @@
 #endif
 
 
-/{
     keymap {
         compatible = "zmk,keymap";
 
