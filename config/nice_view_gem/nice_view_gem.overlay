@@ -23,8 +23,5 @@
 };
 
 &nice_view_spi {
-    cs-gpios = <&gpio0 22 GPIO_ACTIVE_HIGH>;
-//miso-gpios
-//mosi-gpios
-//sck-gpios
+    cs-gpios = <&gpio0 22 GPIO_ACTIVE_LOW>;
 };
