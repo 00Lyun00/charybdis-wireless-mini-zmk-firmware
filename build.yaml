@@ -15,8 +15,8 @@ include:
   - name: bt
     board: nice_nano//zmk
     shield:
-      - charybdis_left_bt
-      - charybdis_right_bt
+      - charybdis_left_bt nice_view
+      - charybdis_right_bt nice_view
     keymap:
       - main
       # - qwerty
