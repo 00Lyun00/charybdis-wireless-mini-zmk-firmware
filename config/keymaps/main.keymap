@@ -57,7 +57,7 @@
             display-name = "Main";
             bindings = <
     &none    &kp Q            &kp W      &kp F      &kp P     &kp B     &kp J     &kp L    &kp U    &kp Y      &kp MINUS   &none 
-    &none    &kp A  &kp R      &kp S      &kp T     &kp G     &kp M    &kp N    &kp E      &kp I  &kp O       &none
+    &none    &art_lt MOUSE A  &kp R      &kp S      &kp T     &kp G     &kp M    &kp N    &kp E      &kp I  &kp O       &none
     &none    &art_lt EXTRA Z  &kp X      &kp C      &kp D     &kp V     &kp K    &kp H    &kp COMMA  &kp DOT  &kp FSLH   &none
                      &mo TRACK  &lt NUM SPACE  &lt SYMB DEL    &lt NAV BSPC  &lt FUNC RET
             >;
