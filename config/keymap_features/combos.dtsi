@@ -19,20 +19,20 @@
             layers = <0>;
         };
         
-        combo_left_click {
-            bindings = <&mkp LCLK>;
-            key-positions = <19 20>;
-        };
+//        combo_left_click {
+//            bindings = <&mkp LCLK>;
+//           key-positions = <19 20>;
+//       };
 
         combo_DGSK {
             bindings = <&mo 7>;
             key-positions = <32 33>;
         };
 
-        combo_right_click {
-            bindings = <&mkp RCLK>;
-            key-positions = <21 22>;
-        };
+//        combo_right_click {
+//            bindings = <&mkp RCLK>;
+//            key-positions = <21 22>;
+//        };
 
         combo_change {
             timeout-ms = <100>;
