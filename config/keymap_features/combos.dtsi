@@ -26,7 +26,7 @@
 
         combo_DGSK {
             bindings = <&mo 7>;
-            key-positions = <20 21>;
+            key-positions = <32 33>;
         };
 
         combo_right_click {
