@@ -32,6 +32,7 @@
 #define FUNC    5
 #define MOUSE   6
 #define EXTRA   7
+#define TRACK   8
 
 #define MEH(key) LA(LS(LC(key)))
 
@@ -58,7 +59,7 @@
     &none    &kp Q            &kp W      &kp F      &kp P     &kp B     &kp J     &kp L    &kp U    &kp Y      &kp MINUS   &none 
     &none    &kp A  &kp R      &kp S      &kp T     &kp G     &kp M    &kp N    &kp E      &kp I  &kp O       &none
     &none    &art_lt EXTRA Z  &kp X      &kp C      &kp D     &kp V     &kp K    &kp H    &kp COMMA  &kp DOT  &kp FSLH   &none
-                     &mo MOUSE  &lt NUM SPACE  &lt SYMB DEL    &lt NAV BSPC  &lt FUNC RET
+                     &mo TRACK  &lt NUM SPACE  &lt SYMB DEL    &lt NAV BSPC  &lt FUNC RET
             >;
         };
 
@@ -106,7 +107,7 @@
         Func {
             display-name = "Func";
             bindings = <
-  &none    &kp F9  &kp F10  &kp F11  &kp F12    &kp C_VOL_UP            &kp LC(T)  &kp LEFT         &kp LC(L) &kp RIGHT     &tog MOUSE   &none  
+  &none    &kp F9  &kp F10  &kp F11  &kp F12    &kp C_VOL_UP            &kp LC(T)  &kp LEFT         &kp LC(L) &kp RIGHT     &tog TRACK   &none  
   &none    &kp F5  &kp F6   &kp F7   &kp F8     &kp C_MUTE              &kp F5     &kp LA(LEFT)     &mkp MCLK &kp LA(RIGHT) &none        &none 
   &none    &kp F1  &kp F2   &kp F3   &kp F4     &kp C_VOL_DN            &kp LC(W)  &kp LS(LC(TAB))  &none     &kp LC(TAB)   &kp LA(F4)   &none
                                &bt BT_PRV  &none  &bt BT_NXT     &bt BT_CLR     &none
@@ -131,6 +132,16 @@
       &none    &none  &kp MEH(R)  &kp MEH(S)  &kp MEH(T)  &kp MEH(G)       &none &none &none &none &none   &none 
       &none    &none  &kp MEH(X)  &kp MEH(C)  &kp MEH(D)  &kp MEH(V)       &none &none &none &none &none   &none
                               &kp MEH(Q)  &kp MEH(A)  &kp MEH(Z)   &none   &none
+            >;
+        };
+
+        Track {
+            display-name = "Track";
+            bindings = <
+      &none    &none   &none &none &none &none                       &none &none &none &none &tog TRACK   &none 
+      &none    &kp LGUI &sk LEFT_ALT &sk LCTRL &sk LSHFT &none       &none &mkp LCLK &mo EXTRA &mkp RCLK &none   &none  
+      &none    &none   &none &none &none &none                       &none &none &none &none &none   &none
+                                  &none &none &none                  &none   &none
             >;
         };
 
