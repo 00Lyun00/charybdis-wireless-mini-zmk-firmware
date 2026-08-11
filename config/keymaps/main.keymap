@@ -139,7 +139,7 @@
             display-name = "Track";
             bindings = <
       &none    &none   &none &none &none &none                       &kp LC(T)  &kp LEFT &kp LC(L) &kp RIGHT &tog TRACK   &none 
-      &none    &kp LGUI &sk LEFT_ALT &sk LCTRL &sk LSHFT &none       &kp F5  &mkp LCLK &mo EXTRA &mkp RCLK &mkp McLK   &none  
+      &none    &kp LGUI &sk LEFT_ALT &sk LCTRL &sk LSHFT &none       &kp F5  &mkp LCLK &mo EXTRA &mkp RCLK &mkp MCLK   &none  
       &none    &none   &none &none &none &none                       &kp LC(W)  &kp LS(LC(TAB))  &none  &kp LC(TAB) &kp LA(F4)   &none
                                   &none &none &none                  &kp LA(LEFT)   &kp LA(RIGHT)
             >;
