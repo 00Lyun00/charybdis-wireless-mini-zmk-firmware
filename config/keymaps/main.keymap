@@ -57,7 +57,7 @@
             display-name = "Main";
             bindings = <
     &none    &kp Q            &kp W      &kp F      &kp P     &kp B     &kp J     &kp L    &kp U    &kp Y      &kp MINUS   &none 
-    &none     &ht_left_tp LGUI A  &ht_left LALT R  &ht_left LCTRL S  &ht_left LSHFT T  &kp G    &kp M   &ht_right RSHFT N  &ht_right RCTRL E  &ht_right_tp LALT I  &ht_right_tp RGUI O       &none
+    &none     &art_lt A  &ht_left LALT R  &ht_left LCTRL S  &ht_left LSHFT T  &kp G    &kp M   &ht_right RSHFT N  &ht_right RCTRL E  &ht_right_tp LALT I  &kp O       &none
     &none    &art_lt EXTRA Z  &kp X      &kp C      &kp D     &kp V     &kp K    &kp H    &kp COMMA  &kp DOT  &kp FSLH   &none
                      &mo TRACK  &lt NUM SPACE  &lt SYMB DEL    &lt NAV BSPC  &lt FUNC RET
             >;
@@ -67,7 +67,7 @@
             display-name = "Qwert";
             bindings = <
     &none    &kp Q  &kp W      &kp E      &kp R  &kp T            &kp Y    &kp U      &kp I    &kp O     &kp P   &none    
-    &none     &ht_left_tp LGUI A  &ht_left LALT S  &ht_left LCTRL D  &ht_left LSHFT F  &kp G    &kp H   &ht_right RSHFT J  &ht_right RCTRL K  &ht_right_tp LALT L  &ht_right_tp RGUI SEMI   &none   
+    &none    &kp A  &ht_left LALT S  &ht_left LCTRL D  &ht_left LSHFT F  &kp G    &kp H   &ht_right RSHFT J  &ht_right RCTRL K  &ht_right_tp LALT L  &kp SEMI   &none   
     &none    &kp Z  &kp X      &kp C      &kp V  &kp B            &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH   &none 
                              &trans    &trans  &trans    &trans   &trans
             >;
