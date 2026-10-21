@@ -59,7 +59,7 @@
     &none    &kp Q            &kp W      &kp F      &kp P     &kp B     &kp J     &kp L    &kp U    &kp Y      &kp MINUS   &none 
     &none     &art_lt MOUSE A  &ht_left LALT R  &ht_left LCTRL S  &lt TRACK T  &kp G    &kp M   &ht_right RSHFT N  &ht_right LCTRL E  &ht_right_tp LALT I  &kp O       &none
     &none    &art_lt EXTRA Z  &kp X      &kp C      &kp D     &kp V     &kp K    &kp H    &kp COMMA  &kp DOT  &kp FSLH   &none
-                     &kp LSHFT  &lt SYMB DEL    &lt NAV BSPC  &lt FUNC RET
+                     &sk LSHFT  &lt SYMB DEL    &lt NAV BSPC  &lt FUNC RET
             >;
         };
 
@@ -139,9 +139,9 @@
             display-name = "Track";
             bindings = <
       &none    &none   &none &none &none &none                       &kp LC(T)  &kp LEFT &kp LC(L) &kp RIGHT &tog TRACK   &none 
-      &none    &kp LGUI &sk LEFT_ALT &sk LCTRL &sk LSHFT &none       &kp F5  &mkp LCLK &mo EXTRA &mkp RCLK &mkp MCLK   &none  
+      &none    &kp LGUI &sk LEFT_ALT &sk LCTRL &none &none           &kp F5  &mkp LCLK &mo EXTRA &mkp RCLK &mkp MCLK   &none  
       &none    &none   &none &none &none &none                       &kp LC(W)  &kp LS(LC(TAB))  &none  &kp LC(TAB) &kp LA(F4)   &none
-                                  &none &none &none                  &kp LA(LEFT)   &kp LA(RIGHT)
+                                  &sk LSHFT &none &none                  &kp LA(LEFT)   &kp LA(RIGHT)
             >;
         };
 
