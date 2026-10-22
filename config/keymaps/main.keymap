@@ -88,7 +88,7 @@
             bindings = <
     &none    &kp EXCL   &kp PG_UP &kp UP   &kp PG_DN  &none               &bootloader   &none   &kp RCTRL  &kp RALT  &tog QWERT    &none  
     &none    &kp HOME   &kp LEFT  &kp DOWN &kp RIGHT  &kp END             &to MAIN  &sk LSHFT   &sk LCTRL  &sk LEFT_ALT &sk LGUI   &none  
-    &none    &kp GRAVE  &none  &none    &none    &none                    &kp LC(Y) &kp LC(V)   &kp LC(C)   &kp LC(X)   &kp LC(Z)   &none
+    &none    &kp GRAVE  &none  &none    &kp LS(SEMI)    &none             &kp LC(Y) &kp LC(V)   &kp LC(C)   &kp LC(X)   &kp LC(Z)   &none
                         &kp BSPC  &kp SPACE  &kp RET                   &trans    &none
             >;
         };
