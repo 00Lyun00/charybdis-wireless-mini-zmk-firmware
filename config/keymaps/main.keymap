@@ -88,7 +88,7 @@
             bindings = <
     &none    &kp EXCL   &kp PG_UP &kp UP   &kp PG_DN  &kp LS(LA(TAB))     &bootloader   &none   &kp RCTRL  &kp RALT  &tog QWERT    &none  
     &none    &kp HOME   &kp LEFT  &kp DOWN &kp RIGHT  &kp END             &to MAIN  &sk LSHFT   &sk LCTRL  &sk LEFT_ALT &sk LGUI   &none  
-    &none    &kp GRAVE  &kp LS(TAB)  &none    &kp TAB    &kp LA(TAB)     &kp LC(Y) &kp LC(V)   &kp LC(C)   &kp LC(X)   &kp LC(Z)   &none
+    &none    &kp GRAVE  &none  &none    &none    &none                    &kp LC(Y) &kp LC(V)   &kp LC(C)   &kp LC(X)   &kp LC(Z)   &none
                         &kp BSPC  &kp SPACE  &kp RET                   &trans    &none
             >;
         };
@@ -97,7 +97,7 @@
         SYMB {
             display-name = "Symb";
             bindings = <
-       &none    &kp ESC  &kp LS(TAB) &none     &kp TAB &kp LC(LS(S))                &kp LC(T)  &kp LEFT &kp LC(L) &kp RIGHT &tog SYMB           &none  
+       &none    &kp ESC  &kp LS(TAB) &sk LALT    &kp TAB &kp LC(LS(S))             &kp LC(T)  &kp LEFT &kp LC(L) &kp RIGHT &tog SYMB           &none  
        &none    &kp LC(SEMI)  &sk LALT &sk LCTRL &sk LSHFT &kp LG(V)                &kp F5  &mkp LCLK &mo EXTRA &mkp RCLK &mkp MCLK              &none  
        &none    &tempsym    &auto_elp  &kp LBRC  &auto_brc &kp RBRC                 &kp LC(W)  &kp LS(LC(TAB))  &none  &kp LC(TAB) &kp LA(F4)    &none  
                                       &none      &none  &none                       &kp LA(LEFT)   &kp LA(RIGHT)
