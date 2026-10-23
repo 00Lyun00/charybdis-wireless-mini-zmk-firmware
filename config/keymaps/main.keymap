@@ -97,10 +97,10 @@
         SYMB {
             display-name = "Symb";
             bindings = <
-       &none    &kp ESC  &none       &none      &none     &kp LC(LS(S))             &kp LC(T)  &kp LEFT &kp LC(L) &kp RIGHT &tog SYMB           &none  
-       &none    &kp LC(SEMI)  &sk LALT &sk LCTRL &sk LSHFT &kp LG(V)                &kp F5  &mkp LCLK &mo EXTRA &mkp RCLK &mkp MCLK              &none  
-       &none    &tempsym    &auto_elp  &kp LBRC  &auto_brc &kp RBRC                 &kp LC(W)  &kp LS(LC(TAB))  &none  &kp LC(TAB) &kp LA(F4)    &none  
-                                      &none      &none  &none                       &kp LA(LEFT)   &kp LA(RIGHT)
+       &none    &kp ESC  &kp LS(LA(TAB))       &none      &kp LA(TAB)     &kp LC(LS(S))     &kp LC(T)  &kp LEFT &kp LC(L) &kp RIGHT &tog SYMB           &none  
+       &none    &kp LC(SEMI)  &sk LALT &sk LCTRL &sk LSHFT &kp LG(V)                        &kp F5  &mkp LCLK &mo EXTRA &mkp RCLK &mkp MCLK              &none  
+       &none    &tempsym    &auto_elp  &kp LBRC  &auto_brc &kp RBRC                         &kp LC(W)  &kp LS(LC(TAB))  &none  &kp LC(TAB) &kp LA(F4)    &none  
+                                      &none      &none  &none                               &kp LA(LEFT)   &kp LA(RIGHT)
             >;
         };
 
